@@ -1,0 +1,221 @@
+<!doctype html>
+<Html>
+<head>
+<title>Game Aware</title>
+  <link href="{{ url_for('static', filename='css/bootstrap.min.css') }}" rel="stylesheet" />
+  <style>
+.container {
+    position:relative;
+}
+.center {
+    position:absolute;
+    left: 0;
+    top: 50%;
+    width: 100%
+    text-align: center;
+    font-size:18px;
+}
+
+img {
+    width: 100%;
+    text-align: center;
+    font-size: 18px;
+    }
+
+
+    ul{
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        background-color: #333;
+      }
+      li{
+        float: left;
+        border-right: 1px solid #bbb;
+        }
+      li:last-child {
+          border-right:none;
+          }
+
+        li a {
+          display: block;
+          color: white;
+          text-align: center;
+          padding: 14px 16px;
+          text-decoration: none;
+          }
+
+          li a:hover:not(.active) {
+          background-color: #111;
+          }
+
+    body{
+      padding-top: 10px;
+     
+       
+      background-image: url("static/images/background.jpg"); 
+   }
+
+h1 {
+ color: white;
+}
+
+p {
+  color:white;
+}
+    
+div.img {
+  display: block;
+  margin: auto;
+  border: 1px solid #ccc;
+  float: left;
+  width: 180px;
+  }
+
+div.img:hover {
+border: 1px solid #777;
+}
+
+div.img img {
+  width:100%;
+  height: 200px;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: left;
+  color: white;
+}
+
+  </style>
+</head>
+<body>
+      
+      <div class="container">
+       <img src="/static/images/title.jpg" alt="title image" width="1000"
+       height="200">
+                </div>
+
+      <ul>
+        <li><a class="active" href="http://localhost:5000/">Home</a></li>
+        <li><a href="http://localhost:5000/about/">About</a></li>
+        <li><a href="https://localhost:5000/contact/">Contact</a></li>
+      </ul>
+         
+               <div class="container">
+                <div style="text-align:center;"><h1>Game Aware</div></h1>
+                
+
+               <div style="text-align:center;"><p> This is a website dedicated to cataloging various
+                different computer games that have been created over the past
+                years, here you can sort through them all by alphabetical
+                order, release date, publisher, developer or media type i.e.
+                CD(Compact-Disc) or digital only.</p></div>
+               </div>
+
+               <div class="img">
+                <a target="_blank" href="static/images/skyrim.png">
+                  <img src="skyrim.png" alt="The Elder Scrolls V: skyrim"
+                  width="300" height="200">
+                  </a>
+                  <div class="desc"><li>Title: The Elder Scrolls V:Skyrim</li>
+                                    <li>Developer: Bethesda Softworks</li>
+                                    <li>Publisher: zenimax media</li>
+                                    <li>Release:11/11/11</li>
+                  </div>
+                  </div>
+                          
+                  <div class="img">
+                    <a target="_blank" href="static/images/eso.jpg">
+                      <img src="static/images/eso.jpg" alt="The Elder Scrolls:
+                      Online" width="600" height="400">
+                      </a>
+                      <div class="desc"><li>Title: Elder Scrolls: Online</li>
+                                        <li>Developer: Zenimax Online</li>
+                                        <li>Publisher: Zenimax media</li>
+                                        <li>Release: 04/04/14</li>
+                      </div>
+                      </div>
+                  
+                  <div class="img">
+                    <a target="_blank" href="static/images/Fallout.jpg">
+                      <img src="static/images/Fallout.jpg" alt="Fallout 4"
+                      width="600" height="400">
+                      </a>
+                      <div class="desc"><li>Title: Fallout 4</li>
+                                        <li>Developer: Bethesda</li>
+                                        <li>Publisher: Zenimax media</li>
+                                        <li>Release: 11/10/15</li>
+                                        
+                      </div>
+                      </div>
+
+                  <div class="img">
+                    <a target="_blank" href="static/images/Smite.jpg">
+                    <img src="static/images/Smite.jpg" alt="Smite" width="600"
+                    height="400">
+                    </a>
+                    <div class="desc">
+                                        <li>Title: Smite</li>
+                                        <li>Developer: HiRez Studios</li>
+                                        <li>Publisher: Hirez Studios</li>
+                                        <li>Release: 25/03/14</li>
+
+                    </div>
+                    </div>
+
+                <div class="img">
+                    <a target="_blank" href="static/images/pvz.png">
+                    <img src="static/images/pvz.png" alt="Plants VS Zombies" width="600"
+                    height="400">
+                    </a>
+                    <div class="desc"><li>Title: Plants vs zombies</li>
+                                      <li>Developer: Popcap games </li>
+                                      <li>Publisher: Electronic arts</li>
+                                      <li>Release: 25/02/14</li>
+                    </div>
+                    </div>
+
+                <div class="img">
+                    <a target="_blank" href="static/images/Poxnora.jpg">
+                    <img src="static/images/Poxnora.jpg" alt="Poxnora" width="600"
+                    height="400">
+                    </a>
+                    <div class="desc"><li>Title: Poxnora</li>
+                                      <li>Developer: Octopi </li>
+                                      <li>Publisher: Desert owl games</li>
+                                      <li>Release: 01/08/06</li>
+                    </div>
+                    </div>
+
+
+                <div class="img">
+                    <a target="_blank" href="static/images/souls.jpg">
+                    <img src="static/images/souls.jpg" alt="Dark Souls" width="600"
+                    height="400">
+                    </a>
+                    <div class="desc"><li>Title: Dark Souls 3</li>
+                                      <li>Developer: From Software </li>
+                                      <li>Publisher: Bandai Namco Entertainment</li>
+                                      <li>Release: 24/03/16</li>
+                    </div>
+                    </div>
+
+                <div class="img">
+                    <a target="_blank" href="static/images/Destiny.png">
+                    <img src="static/images/Destiny.png" alt="Destiny" width="600"
+                    height="400">
+                    </a>
+                    <div class="desc"><li>Title: Destiny</li>
+                                      <li>Developer: Bungie</li>
+                                      <li>Publisher: Activision</li>
+                                      <li>Release: 09/09/14</li>
+                    </div>
+                    </div>
+
+            <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></sript>
+            <script src={{ url_for('static', filename='js/bootstrap.min.js')
+            }}"></script>
+</body>
+</html>

@@ -1,0 +1,86 @@
+<!doctype html>
+<Html>
+<head>
+<title>Game Aware</title>
+  <link href="{{ url_for('static', filename='css/bootstrap.min.css') }}" rel="stylesheet" />
+  <style>
+    body{
+      padding-top: 50px;
+   }
+  </style>
+</head>
+<body>
+
+  <nav class="navbar navbar-inverse navbar-fixed-top">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="#">Game Aware</a>
+      </div>
+            <div id="navbar" class="collapse navbar-collapse">
+            <ul class="nav navbar-nav">
+              <li class="active"><a href="#">Home</a></li>
+              <li><a href="#about">About</a></li>
+              <li><a href="#contact">Contact</a></li>
+            </ul>
+            </div>
+          </nav>
+
+
+          <head>
+              <title><h3>Search</h3></title>
+          </head>
+          
+          <div class= "search">
+          <form action="localhost:5000/#">
+          <input type = "text" name- "search" placeholder-"search here...">
+          <input type = "submit" value = search />
+          </form>
+
+          </div>
+
+            <div class="container">
+                <div style="text-align:center;"><h1>Game Aware</div></h1>
+                 
+                 <div class = "search">
+
+               <div style="text-align:center;"><p><h4> This is a website dedicated to cataloging various
+                different computer games that have been created over the past
+                years, here you can sort through them all by alphabetical
+                order, release date, publisher, developer or media type i.e.
+                CD(Compact-Disc) or digital only.</h4></p></div>
+
+
+                  <table>
+                     <tr>
+                         <td>hi</td>
+                         <td>hi</td>
+                         <td>hi</td>
+                    </tr>
+      <br></br>
+                    <tr>
+                         <td>hi</td>
+                         <td>hi</td>
+                         <td>hi</td>
+                    </tr>
+
+                  </table>
+
+      <br></br>
+
+
+                <h4>more soon</h4>
+                <p class="lead">More video games will be getting added to the
+                collection, rest assured there is more coming</p>
+            </div>
+
+            <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></sript>
+            <script src={{ url_for('static', filename='js/bootstrap.min.js')
+            }}"></script>
+</body>
+</html>
