@@ -6,8 +6,10 @@
   <style>
 body {
   padding-top: 10px;
+  padding-left: 300px;
+  padding-right: 300px;
 
- background-color: blue;
+   background-image: url("/static/images/background.jpg");
 
   }
 
@@ -45,7 +47,7 @@ img {
       }
 
       li a:hover:not(.active) {
-      background-color: #111;
+      background-color: #111; 
    } 
 
     
@@ -66,14 +68,14 @@ p {
 <body>
       
       <div class="container">
-       <img src="title.jpg" alt="title image" width="1000"
+       <img src="/static/images/title.jpg" alt="title image" width="1000"
        height="200">
                 </div>
 
       <ul>
         <li><a class="active" href="http://localhost:5000/">Home</a></li>
         <li><a href="http://localhost:5000/about/">About</a></li>
-        <li><a href="https://localhost:5000contact">Contact</a></li>
+        <li><a href="http://localhost:5000/contact/">Contact</a></li>
       </ul>
          
                <div class="container">
